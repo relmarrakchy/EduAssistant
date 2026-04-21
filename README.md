@@ -1,4 +1,4 @@
-﻿# RAG Agent - DeepAgent Architecture Demo
+﻿# EduAssistant - DeepAgent Architecture Demo
 
 <div align="center">
   <h3>A demonstration of DeepAgent Architecture with LangChain</h3>
