@@ -43,17 +43,17 @@ export YOUR_API_KEY="..."
 
 ---
 
-## 💻 Running the App
+## 💻 Running the Terminal App (\chat.ts\)
 
-Since the application is in the testing phase, we provide a dedicated terminal script to interface with the agent natively.
+Since the application is in the testing phase, we provide a dedicated terminal script to interface with the agent natively directly from your console.
 
-To launch the real-time chat interface, run:
+To launch the real-time terminal chat interface, simply run:
 
 \\\ash
 npx ts-node src/agents/chat.ts
 \\\
 
-Once started, simply chat with the agent! 
+Once started, you will see a \You:\ prompt where you can chat with the agent in real time! You will be able to watch it think, invoke sub-agents, and return customized course outlines or flashcards.
 
 ### Commands
 - Type \exit\ or \quit\ to stop the application gracefully.
