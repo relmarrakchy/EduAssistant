@@ -29,16 +29,18 @@ It is currently in its **testing phase**, implemented as a terminal-based conver
 
 ### 1. Install Dependencies
 Clone the repository and install the dependencies:
-\\\ash
+```shell
 pnpm install
-\\\
+```
+
+
 
 ### 2. Configure Your Environment
 Depending on the model configured in \src/agents/main.ts\ (e.g., \qwen3.5:397b-cloud\), ensure you have any required API keys mapped in your environment:
-\\\ash
+```typescript
 # Example if using LangChain with external providers:
 export YOUR_API_KEY="..."
-\\\
+```
 *(If using Ollama natively, make sure the Ollama daemon is running with the specified model).*
 
 ---
@@ -49,9 +51,9 @@ Since the application is in the testing phase, we provide a dedicated terminal s
 
 To launch the real-time terminal chat interface, simply run:
 
-\\\ash
+```shell
 npx ts-node src/agents/chat.ts
-\\\
+```
 
 Once started, you will see a \You:\ prompt where you can chat with the agent in real time! You will be able to watch it think, invoke sub-agents, and return customized course outlines or flashcards.
 
