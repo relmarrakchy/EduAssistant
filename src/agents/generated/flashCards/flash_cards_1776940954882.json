@@ -1,0 +1,156 @@
+{
+  "title": "Linear Algebra Flashcards - High School",
+  "total_cards": 15,
+  "flashcards": [
+    {
+      "id": 1,
+      "question": "What is a vector in linear algebra?",
+      "correct_answer": "An ordered list of numbers that represents magnitude and direction",
+      "incorrect_answers": [
+        "A single number representing only magnitude",
+        "A geometric shape with three sides",
+        "A matrix with equal rows and columns"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is the dimension of a 3×4 matrix?",
+      "correct_answer": "3 rows and 4 columns",
+      "incorrect_answers": [
+        "4 rows and 3 columns",
+        "7 total elements",
+        "12 rows and 12 columns"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "How do you add two matrices?",
+      "correct_answer": "Add corresponding elements from each matrix",
+      "incorrect_answers": [
+        "Multiply all elements together",
+        "Add only the diagonal elements",
+        "Concatenate the matrices side by side"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What is the result of multiplying a 2×3 matrix by a 3×2 matrix?",
+      "correct_answer": "A 2×2 matrix",
+      "incorrect_answers": [
+        "A 3×3 matrix",
+        "A 2×3 matrix",
+        "A 6×6 matrix"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What is the determinant of a 2×2 matrix [[a,b],[c,d]]?",
+      "correct_answer": "ad - bc",
+      "incorrect_answers": [
+        "ab + cd",
+        "a + b + c + d",
+        "ac - bd"
+      ]
+    },
+    {
+      "id": 6,
+      "question": "When can two matrices be multiplied?",
+      "correct_answer": "When the number of columns in the first equals the number of rows in the second",
+      "incorrect_answers": [
+        "When both matrices are square",
+        "When both matrices have the same dimensions",
+        "When the determinant of both matrices is non-zero"
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is an identity matrix?",
+      "correct_answer": "A square matrix with 1s on the diagonal and 0s elsewhere",
+      "incorrect_answers": [
+        "A matrix filled entirely with 1s",
+        "A matrix filled entirely with 0s",
+        "Any matrix with a determinant of 1"
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What does it mean if a matrix has a determinant of 0?",
+      "correct_answer": "The matrix is singular and has no inverse",
+      "incorrect_answers": [
+        "The matrix is an identity matrix",
+        "The matrix cannot be multiplied",
+        "The matrix has equal rows and columns"
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is a scalar in linear algebra?",
+      "correct_answer": "A single real number used to multiply a matrix or vector",
+      "incorrect_answers": [
+        "A type of matrix",
+        "A vector with magnitude only",
+        "The sum of all matrix elements"
+      ]
+    },
+    {
+      "id": 10,
+      "question": "How do you find the transpose of a matrix?",
+      "correct_answer": "Swap rows and columns",
+      "incorrect_answers": [
+        "Multiply all elements by -1",
+        "Calculate the determinant",
+        "Reverse the order of all elements"
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is a system of linear equations?",
+      "correct_answer": "Multiple linear equations with the same variables that are solved simultaneously",
+      "incorrect_answers": [
+        "A single equation with multiple solutions",
+        "Equations that only contain quadratic terms",
+        "A collection of unrelated equations"
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What is the dot product of two vectors?",
+      "correct_answer": "The sum of the products of corresponding components",
+      "incorrect_answers": [
+        "The product of the magnitudes of both vectors",
+        "A vector perpendicular to both input vectors",
+        "The difference between corresponding components"
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is an inverse matrix?",
+      "correct_answer": "A matrix that when multiplied by the original gives the identity matrix",
+      "incorrect_answers": [
+        "A matrix with all negative values",
+        "The transpose of the original matrix",
+        "A matrix with reciprocal values of each element"
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is a square matrix?",
+      "correct_answer": "A matrix with equal number of rows and columns",
+      "incorrect_answers": [
+        "A matrix shaped like a square when drawn",
+        "A matrix containing only perfect square numbers",
+        "A 2×2 matrix only"
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is Gaussian elimination used for?",
+      "correct_answer": "Solving systems of linear equations by row reduction",
+      "incorrect_answers": [
+        "Finding the determinant of a matrix",
+        "Multiplying two matrices together",
+        "Calculating the transpose of a matrix"
+      ]
+    }
+  ]
+}

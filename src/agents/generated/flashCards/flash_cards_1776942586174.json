@@ -1,0 +1,144 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "topic": "Measures of Central Tendency",
+      "question": "What is the mean of the following dataset: 5, 10, 15, 20, 25?",
+      "correct_answer": "15",
+      "incorrect_answers": ["12.5", "17.5", "20"]
+    },
+    {
+      "id": 2,
+      "topic": "Measures of Central Tendency",
+      "question": "In a skewed distribution, which measure of central tendency is most resistant to outliers?",
+      "correct_answer": "Median",
+      "incorrect_answers": ["Mean", "Mode", "Range"]
+    },
+    {
+      "id": 3,
+      "topic": "Measures of Central Tendency",
+      "question": "What is the mode of the dataset: 3, 7, 7, 9, 11, 7, 15?",
+      "correct_answer": "7",
+      "incorrect_answers": ["9", "11", "3"]
+    },
+    {
+      "id": 4,
+      "topic": "Measures of Dispersion",
+      "question": "What is the relationship between variance and standard deviation?",
+      "correct_answer": "Standard deviation is the square root of variance",
+      "incorrect_answers": ["Variance is the square root of standard deviation", "They are the same value", "Variance equals standard deviation squared times n"]
+    },
+    {
+      "id": 5,
+      "topic": "Measures of Dispersion",
+      "question": "If a dataset has a variance of 64, what is its standard deviation?",
+      "correct_answer": "8",
+      "incorrect_answers": ["4", "16", "32"]
+    },
+    {
+      "id": 6,
+      "topic": "Probability Concepts",
+      "question": "What is the probability of drawing an Ace from a standard deck of 52 cards?",
+      "correct_answer": "1/13 (approximately 0.077)",
+      "incorrect_answers": ["1/52", "4/13", "1/4"]
+    },
+    {
+      "id": 7,
+      "topic": "Probability Concepts",
+      "question": "If two events are independent, how do you calculate the probability of both occurring?",
+      "correct_answer": "Multiply their individual probabilities",
+      "incorrect_answers": ["Add their individual probabilities", "Subtract one from the other", "Take the average of both probabilities"]
+    },
+    {
+      "id": 8,
+      "topic": "Hypothesis Testing",
+      "question": "What is the null hypothesis (H₀) in statistical testing?",
+      "correct_answer": "A statement of no effect or no difference that is tested",
+      "incorrect_answers": ["The research hypothesis we want to prove", "The alternative to the research hypothesis", "The conclusion of the statistical test"]
+    },
+    {
+      "id": 9,
+      "topic": "Hypothesis Testing",
+      "question": "What does a p-value of 0.03 indicate when using α = 0.05?",
+      "correct_answer": "Reject the null hypothesis",
+      "incorrect_answers": ["Fail to reject the null hypothesis", "Accept the null hypothesis", "The test is inconclusive"]
+    },
+    {
+      "id": 10,
+      "topic": "Hypothesis Testing",
+      "question": "What is a Type I error in hypothesis testing?",
+      "correct_answer": "Rejecting a true null hypothesis",
+      "incorrect_answers": ["Failing to reject a false null hypothesis", "Accepting a true alternative hypothesis", "Calculating the wrong test statistic"]
+    },
+    {
+      "id": 11,
+      "topic": "Hypothesis Testing",
+      "question": "What is a Type II error in hypothesis testing?",
+      "correct_answer": "Failing to reject a false null hypothesis",
+      "incorrect_answers": ["Rejecting a true null hypothesis", "Rejecting a false alternative hypothesis", "Using the wrong significance level"]
+    },
+    {
+      "id": 12,
+      "topic": "Confidence Intervals",
+      "question": "What does a 95% confidence interval mean?",
+      "correct_answer": "If we repeated the sampling many times, 95% of intervals would contain the true population parameter",
+      "incorrect_answers": ["There is a 95% probability the true parameter is in this specific interval", "95% of the data falls within this interval", "The sample mean is 95% accurate"]
+    },
+    {
+      "id": 13,
+      "topic": "Confidence Intervals",
+      "question": "What happens to the width of a confidence interval when the sample size increases?",
+      "correct_answer": "It decreases (becomes narrower)",
+      "incorrect_answers": ["It increases (becomes wider)", "It stays the same", "It becomes zero"]
+    },
+    {
+      "id": 14,
+      "topic": "Correlation Coefficients",
+      "question": "What is the range of values for a Pearson correlation coefficient?",
+      "correct_answer": "-1 to +1",
+      "incorrect_answers": ["0 to 1", "-1 to 0", "0 to 100"]
+    },
+    {
+      "id": 15,
+      "topic": "Correlation Coefficients",
+      "question": "What does a correlation coefficient of -0.85 indicate?",
+      "correct_answer": "A strong negative linear relationship",
+      "incorrect_answers": ["A weak negative relationship", "No relationship", "A strong positive relationship"]
+    },
+    {
+      "id": 16,
+      "topic": "Regression Analysis",
+      "question": "In simple linear regression, what does the slope coefficient represent?",
+      "correct_answer": "The change in the dependent variable for a one-unit change in the independent variable",
+      "incorrect_answers": ["The value of Y when X equals zero", "The correlation between X and Y", "The average value of the dependent variable"]
+    },
+    {
+      "id": 17,
+      "topic": "Normal Distribution",
+      "question": "What percentage of data falls within ±2 standard deviations of the mean in a normal distribution?",
+      "correct_answer": "Approximately 95%",
+      "incorrect_answers": ["Approximately 68%", "Approximately 99.7%", "Approximately 90%"]
+    },
+    {
+      "id": 18,
+      "topic": "Central Limit Theorem",
+      "question": "What does the Central Limit Theorem state?",
+      "correct_answer": "The sampling distribution of the mean approaches normal as sample size increases, regardless of population distribution",
+      "incorrect_answers": ["All populations are normally distributed", "Sample means always equal population means", "Large samples eliminate all sampling error"]
+    },
+    {
+      "id": 19,
+      "topic": "Statistical Tests",
+      "question": "When should you use a t-test instead of a z-test?",
+      "correct_answer": "When the population standard deviation is unknown and sample size is small",
+      "incorrect_answers": ["When the population standard deviation is known", "When sample size is greater than 100", "When testing proportions instead of means"]
+    },
+    {
+      "id": 20,
+      "topic": "Statistical Tests",
+      "question": "What is the primary difference between a one-tailed and two-tailed test?",
+      "correct_answer": "A one-tailed test examines effect in one direction; a two-tailed test examines both directions",
+      "incorrect_answers": ["A one-tailed test uses half the sample size", "A two-tailed test is always more powerful", "They use different test statistics"]
+    }
+  ]
+}

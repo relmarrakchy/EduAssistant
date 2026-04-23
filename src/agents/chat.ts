@@ -55,6 +55,7 @@ const askQuestion = () => {
             }
           }
         }
+        
         // Optionally show tool usage indication (thinking)
         else if (event.event === "on_tool_start") {
           process.stdout.write(`\n\x1b[33m[Starting tool/sub-agent: ${event.name}...]\x1b[0m\n`);
